@@ -22,13 +22,12 @@ Ideal for learning or extending into production with Airflow, Prefect, cron, or 
 
 ## 🗂️ Project Structure
 ```
-ETL_PIPELINE/
+ETL_Superstore_pipeline/
 │
 ├── data/
 │ └── Download Superstore Dataset below
 │
 ├── logs/
-│ └── etl_superstore.log
 │
 ├── src/
 │ └── etl_superstore.py
@@ -71,7 +70,6 @@ ETL_PIPELINE/
 
 ```bash
 git clone https://github.com/Varma-N/ETL_Superstore_pipeline
-cd ETL_PIPELINE
 ```
 ### 2️⃣ Install Dependencies
 ```bash
