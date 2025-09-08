@@ -25,7 +25,7 @@ Ideal for learning or extending into production with Airflow, Prefect, cron, or 
 ETL_PIPELINE/
 │
 ├── data/
-│ └── [Download Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+│ └── Download Superstore Dataset below
 │
 ├── logs/
 │ └── etl_superstore.log
@@ -35,6 +35,7 @@ ETL_PIPELINE/
 ├── requirements.txt
 └── README.md
 ```
+### [Download Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
 ## ⚙️ Tech Stack
 
@@ -92,7 +93,7 @@ CREATE TABLE superstore_orders_table (
     sales DECIMAL(10,2),
     quantity INT,
     profit DECIMAL(10,2),
-     UNIQUE KEY unique_order_product (order_id, product_id)  -- Composite uniqueness
+    UNIQUE KEY unique_order_product (order_id, product_id)  -- Composite uniqueness
 );
 ```
 ### 4️⃣ Run the ETL Pipeline
